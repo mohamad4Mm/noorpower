@@ -5,11 +5,22 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>نور باور سيرفيس - حلول طاقة ذكية في تارودانت</title>
+    <meta
+      name="description"
+      content="شركة متخصصة في الطاقة الشمسية والكهرباء بتارودانت. نوفر حلول طاقة ذكية للمنازل والصناعات والفلاحة."
+    />
+    <meta
+      name="keywords"
+      content="طاقة شمسية تارودانت، كهرباء، ضخ شمسي، صيانة فنية، حلول طاقة ذكية"
+    />
+    <meta name="author" content="نور باور سيرفيس" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://noorpower.ma" />
     <!-- Tailwind CSS v3 CDN -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <!-- Google Fonts: Cairo -->
+    <!-- Google Fonts: Cairo with font-display swap for faster text rendering -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
     <script>
@@ -51,6 +62,21 @@
         bottom: 20px;
         right: 20px;
         z-index: 100;
+        min-width: 56px;
+        min-height: 56px;
+      }
+
+      /* Ensure minimum touch target size (44x44px) for all interactive elements */
+      a,
+      button {
+        min-height: 44px;
+        min-width: 44px;
+      }
+
+      /* Optimize button touch targets */
+      .btn-advanced {
+        min-height: 44px;
+        padding: var(--btn-padding, 0.75rem 1rem) !important;
       }
 
       /* Animation Keyframes */
@@ -905,9 +931,13 @@
             class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col card-hover"
           >
             <img
-              alt="الطاقة الشمسية للمنازل"
+              alt="تركيب الألواح الشمسية على سطح منزل بتارودانت"
               class="h-64 w-full object-cover"
-              src="https://images.pexels.com/photos/9799758/pexels-photo-9799758.jpeg"
+              src="https://images.pexels.com/photos/9799758/pexels-photo-9799758.jpeg?auto=compress&cs=tinysrgb&w=600&h=400"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div class="p-8 flex flex-col flex-grow">
               <div class="flex justify-between items-start mb-4">
@@ -963,9 +993,13 @@
             class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col card-hover"
           >
             <img
-              alt="الضخ الشمسي"
+              alt="نظام ضخ شمسي لسقي الحقول الزراعية في المناطق الجافة"
               class="h-64 w-full object-cover"
-              src="https://www.renovablesverdes.com/wp-content/uploads/2019/11/Riego-de-bombeo-solar-fotovoltaico.jpg.webp"
+              src="https://www.renovablesverdes.com/wp-content/uploads/2019/11/Riego-de-bombeo-solar-fotovoltaico.jpg.webp?w=600&h=400"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div class="p-8 flex flex-col flex-grow">
               <div class="flex justify-between items-start mb-4">
@@ -1019,9 +1053,13 @@
             class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col card-hover"
           >
             <img
-              alt="الكهرباء العامة"
+              alt="تركيب الأسلاك الكهربائية والتمديدات الآمنة في المباني"
               class="h-64 w-full object-cover"
-              src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg"
+              src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600&h=400"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div class="p-8 flex flex-col flex-grow">
               <div class="flex justify-between items-start mb-4">
@@ -1075,9 +1113,13 @@
             class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col card-hover"
           >
             <img
-              alt="الصيانة والدعم"
+              alt="فريق فنيون متخصصون يقومون بصيانة الألواح الشمسية"
               class="h-64 w-full object-cover"
-              src="https://images.pexels.com/photos/8853499/pexels-photo-8853499.jpeg"
+              src="https://images.pexels.com/photos/8853499/pexels-photo-8853499.jpeg?auto=compress&cs=tinysrgb&w=600&h=400"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div class="p-8 flex flex-col flex-grow">
               <div class="flex justify-between items-start mb-4">
@@ -1148,15 +1190,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="مشروع طاقة"
+              alt="مشروع تركيب الألواح الشمسية على منزل بتارودانت"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://images.pexels.com/photos/14384696/pexels-photo-14384696.jpeg"
+              src="https://images.pexels.com/photos/14384696/pexels-photo-14384696.jpeg?auto=compress&cs=tinysrgb&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >طاقة متجددة</span
               >
               <h4 class="text-white font-bold">مشروع تركيب طاقة شمسية</h4>
@@ -1167,15 +1213,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="كهرباء صناعية"
+              alt="مشروع كهرباء صناعية عالية الجهد لمصنع بتارودانت"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://scontent.frba4-2.fna.fbcdn.net/v/t1.6435-9/86734380_2990160207715197_2300299031068278784_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeH-_nlCHfpu7eLIrF3YD-88mcr7d11cpz6Zyvt3XVynPrAAaM2XD0O7WCQnJi9WLUEpIZOz9nv1l1HCpqkZB1P6&_nc_ohc=QiwU1CqS7nMQ7kNvwEqyFq7&_nc_oc=AdlhOBuIu0sXh17W09gF2U0mVE51ztseKTYAEtvMFsCDl4W261cuYzcCMh3WWp4fhF8&_nc_zt=23&_nc_ht=scontent.frba4-2.fna&_nc_gid=smF2B_rWpAKILddIvHcP2A&_nc_ss=8&oh=00_AfzPQyNGwSgeCDIEMHORrIHEKdUCDEUpKum3-kPoSJqseA&oe=69E1315E"
+              src="https://images.pexels.com/photos/14384696/pexels-photo-14384696.jpeg?auto=compress&cs=tinysrgb&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >صناعي</span
               >
               <h4 class="text-white font-bold">كهرباء صناعية لوحدة إنتاجية</h4>
@@ -1186,15 +1236,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="صيانة شبكات"
+              alt="صيانة شبكات الجهد العالي والأسلاك الكهربائية"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg"
+              src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >صيانة</span
               >
               <h4 class="text-white font-bold">صيانة شبكات الجهد العالي</h4>
@@ -1205,15 +1259,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="تجهيز آبار"
+              alt="تجهيز الآبار الفلاحية بأنظمة الضخ الشمسي"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://images.pexels.com/photos/13932269/pexels-photo-13932269.jpeg"
+              src="https://images.pexels.com/photos/13932269/pexels-photo-13932269.jpeg?auto=compress&cs=tinysrgb&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >فلاحي</span
               >
               <h4 class="text-white font-bold">تجهيز الآبار بالطاقة الشمسية</h4>
@@ -1224,15 +1282,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="كهرباء منزلية"
+              alt="تركيب الكهرباء الآمنة والعصرية في المنازل"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://images.pexels.com/photos/6284237/pexels-photo-6284237.jpeg"
+              src="https://images.pexels.com/photos/6284237/pexels-photo-6284237.jpeg?auto=compress&cs=tinysrgb&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >سكني</span
               >
               <h4 class="text-white font-bold">كهرباء المنازل العصرية</h4>
@@ -1243,15 +1305,19 @@
             class="group relative overflow-hidden rounded-2xl h-64 shadow-md portfolio-card"
           >
             <img
-              alt="تطوير حقول"
+              alt="تطوير حقول الطاقة الشمسية الكبرى"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              src="https://mrelec.ma/cdn/shop/articles/solar-energy_mini_mini_1100x.jpg?v=1593861765"
+              src="https://mrelec.ma/cdn/shop/articles/solar-energy_mini_mini_1100x.jpg?v=1593861765&auto=compress&w=500&h=400"
+              width="500"
+              height="400"
+              loading="lazy"
+              decoding="async"
             />
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6"
             >
               <span
-                class="bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
+                class="bg-brand-yellow text-slate-900 text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-2"
                 >مشاريع كبرى</span
               >
               <h4 class="text-white font-bold">تطوير حقول الطاقة الشمسية</h4>
@@ -1287,7 +1353,7 @@
             class="flex flex-col sm:flex-row gap-4 justify-center relative z-10"
           >
             <a
-              class="bg-white text-brand-red px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors shadow-lg btn-advanced animate-bounce-in"
+              class="bg-white text-brand-red px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors shadow-lg btn-advanced animate-bounce-in min-h-[44px]"
               href="tel:0661996506"
             >
               <svg
@@ -1414,6 +1480,7 @@
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13788.634351322434!2d-8.877868!3d30.470487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3ea24a49c9849%3A0xc665b6f3775080e!2sTaroudant!5e0!3m2!1sen!2sma!4v1710000000000!5m2!1sen!2sma"
               style="border: 0"
               width="100%"
+              title="خريطة موقع نور باور سيرفيس في تارودانت"
             >
             </iframe>
           </div>
@@ -1460,7 +1527,10 @@
             <div class="flex gap-4">
               <a
                 class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-red transition-colors"
-                href="#"
+                href="https://facebook.com"
+                rel="noopener noreferrer"
+                aria-label="تابعنا على فيسبوك"
+                target="_blank"
               >
                 <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                   <path
@@ -1470,7 +1540,10 @@
               </a>
               <a
                 class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-red transition-colors"
-                href="#"
+                href="https://instagram.com"
+                rel="noopener noreferrer"
+                aria-label="تابعنا على إنستجرام"
+                target="_blank"
               >
                 <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                   <path
@@ -1480,7 +1553,10 @@
               </a>
               <a
                 class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-brand-red transition-colors"
-                href="#"
+                href="https://linkedin.com"
+                rel="noopener noreferrer"
+                aria-label="تابعنا على لينكد إن"
+                target="_blank"
               >
                 <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                   <path
@@ -1591,6 +1667,9 @@
       class="whatsapp-float bg-[#25d366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center animate-float animate-glow"
       href="https://wa.me/212661996506"
       target="_blank"
+      rel="noopener noreferrer"
+      aria-label="راسلنا على واتس آب"
+      title="اتصل بنا عبر الواتس آب"
     >
       <svg class="w-8 h-8" fill="currentColor" viewbox="0 0 24 24">
         <path
